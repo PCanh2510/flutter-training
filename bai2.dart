@@ -1,5 +1,5 @@
 import 'dart:io';
-int main(){
+void main(){
     print(" nhap so can kiem tra : ");
     var string = stdin.readLineSync();
     var n = int.parse(string);
