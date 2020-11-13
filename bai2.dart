@@ -7,7 +7,7 @@ void main(){
     while(a*a <= n){
         if(a*a == n){
             print(" ${n} la so chinh phuong ");
-            return 0;
+            return ;
         }
         ++a;
     }
